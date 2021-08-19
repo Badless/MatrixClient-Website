@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 60px;
+    transform: translateY(20%) translateX(20%);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-175%);
+    text-align: center;
+    color: rgb(26, 136, 199);
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.content .textBox
+{
+    width: 100%;
+    position: absolute;
+    transform: translateY(150%);
+    text-align: center;
+}
+.content .textBox h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.content .textBox p
+{
+    font-size: 1.2em;
+    color: #333;
+}
+.content .textBox a
+{
+    display: inline-block;
+    background: rgb(14, 118, 216);
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #858585;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+}
+.content .textBox a:hover
+{
+    display: inline-block;
+    background: #013e8f;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #858585;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+.content .textBox a1
+{
+    display: inline-block;
+    background: rgb(14, 118, 216);
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #858585;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+}
+.content .textBox a1:hover
+{
+    display: inline-block;
+    background: #013e8f;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #858585;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+.content .textBox a2
+{
+    display: inline-block;
+    background: rgb(14, 118, 216);
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #858585;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+}
+.content .textBox a2:hover
+{
+    display: inline-block;
+    background: #013e8f;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #858585;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+.content .textBox2
+{
+    width: 100%;
+    position: absolute;
+    transform: translateY(-20%);
+    text-align: center;
+}
+.content .textBox2 h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.content .textBox2 p
+{
+    font-size: 1.2em;
+    color: #333;
+}
+.content .textBox2 a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #009688;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+}
+.container
+{
+    position: horizontal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: translateX(15%);
+    transform: translateY(55%);
+    z-index: 1;
+}
+.container .card
+{
+    position: horizontal;
+    width: 280px;
+    height: 400px;
+    margin: 50px;
+    box-shadow: 20px 20px 50px rgba(0, 119, 255, 0.5);
+    border-radius: 15px;
+    background: rgba(0, 156, 247, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 132, 255, 0.5);
+    border-left: 1px solid rgba(0, 132, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+.container .card .cardcontent
+{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.container .card .cardcontent h2
+{
+    font-size: 1.8em;
+    color: rgb(0, 183, 255);
+    z-index: 1;
+}
+.container .card .cardcontent p
+{
+    font-size: 1em;
+    color: rgb(0, 183, 255);
+    font-weight: 300;
+}
+.cape1
+{
+    transform: translateY(12000%) translateX(25000%);
+    width: 1px;
+    height: 1px;
+}
+.cape2
+{
+    transform: translateY(12750%) translateX(45000%);
+    width: 1px;
+    height: 1px;
+}
+.cape3
+{
+    transform: translateY(13550%) translateX(65000%);
+    width: 1px;
+    height: 1px;
+}
+.cape4
+{
+    transform: translateY(13850%) translateX(85000%);
+    width: 1px;
+    height: 1px;
+}
+.cape3 p
+{
+    transform: scale(150%) translateX(1000%);
+    width: 1px;
+    height: 1px;
+}
+.cape1 p
+{
+    transform: scale(150%) translateX(700%);
+    width: 1px;
+    height: 1px;
+}
+.cape2 p
+{
+    transform: scale(150%) translateX(900%);
+    width: 1px;
+    height: 1px;
+}
+.cape4 p
+{
+    transform: scale(150%) translateX(900%);
+    width: 1px;
+    height: 1px;
+}
+.cape5
+{
+    transform: translateY(14550%) translateX(105000%);
+    width: 1px;
+    height: 1px;
+}
+.cape5 p
+{
+    transform: scale(150%) translateX(900%);
+    width: 1px;
+    height: 1px;
+}
+.cape6
+{
+    transform: translateY(15550%) translateX(125000%);
+    width: 1px;
+    height: 1px;
+}
+.cape6 p
+{
+    transform: scale(150%) translateX(900%);
+    width: 1px;
+    height: 1px;
+}
